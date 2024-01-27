@@ -1,0 +1,241 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+<script>
+function openKota(namakota) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+ }
+ document.getElementById(namakota).style.display = "block";
+}
+</script>
+
+<body bgcolor="gray">
+<div class="w3-container">
+<img src="css/pita.JPEG" width=100% height=250 alt="maluku utara">
+</div>
+<div class="w3-bar w3-black ">
+ <button class="w3-bar-item w3-button" onclick="openKota('PROFIL')">PROFIL</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('SEJARAH')">SEJARAH</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('DEMOGRAFI')">DEMOGRAFI</button>
+ 
+  <div class="w3-dropdown-hover">
+	<button class="w3-button">KABUPATEN/KOTA</button>
+	<div class="w3-dropdown-content w3-bar-block w3-card-4">
+		<button class="w3-bar-item w3-button" onclick="openKota('KOTA TIDORE KEPULAUAN')">KOTA TIDORE KEPULAUAN</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KOTA TERNATE')">KOTA TERNATE</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN PULAU MOROTAI')">KABUPATEN PULAU MOROTAI</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN PULAU TALIABU')">KABUPATEN PULAU TALIABU</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN KEPULAUAN SULA')">KABUPATEN KEPULAUAN SULA</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN HALMAHERA UTARA')">KABUPATEN HALMAHERA UTARA</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN HALMAHERA BARAT')">KABUPATEN HALMAHERA BARAT</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN HALMAHERA TIMUR')">KABUPATEN HALMAHERA TIMUR</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN HALMAHERA TENGAH')">KABUPATEN HALMAHERA TENGAH</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('KABUPATEN HALMAHERA SELATAN')">KABUPATEN HALMAHERA SELATAN</button>
+		
+		
+	</div>
+  </div>
+   <button class="w3-bar-item w3-button" onclick="openKota('TIM SEPAK BOLA')">TIM SEPAK BOLA</button>
+  <button class="w3-bar-item w3-button" onclick="openKota('CREATOR')">CREATOR</button>
+</div>
+
+<div id="KOTA TIDORE KEPULAUAN" class="w3-container kota w3-animate-top" style="displa:none">
+<font style="color: white;">
+ <h2>KOTA TIDORE KEPULAUAN</h2>
+ <img src="css/tidore.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kota Tidore Kepulauan adalah salah satu kota yang berada di provinsi Maluku Utara, Indonesia. Kota ini memiliki luas wilayah yaitu 1.550,37 km²,yang menjadikannya kota terluas ketiga di Indonesia setelah Kota Palangka Raya dan Kota Dumai. Kota Tidore Kepulauan berpusat pemerintahan di Kelurahan Soasiu, Pulau Tidore. Di wilayah administratif Kota Tidore Kepulauan tepatnya di Kecamatan Oba Utara, berdiri ibu kota provinsi Maluku Utara berada di Kelurahan Sofifi.</p>
+<h2>SEJARAH</h2>
+<p>Kota ini sudah terkenal sejak zaman penjajahan dahulu karena cengkih dan pala. Bangsa Eropa pertama yang menginjakkan kakinya di Tidore adalah pelaut dari Spanyol yang sampai ke Tidore tahun 1512. Kota ini juga sempat menjadi ibu kota provinsi perjuangan Irian Barat. Gubernur pertamanya adalah Zainal Abidin Syah yang juga Sultan Tidore.</P>
+<p>Setelah Papua masuk ke wilayah Republik Indonesia, statusnya berubah menjadi ibu kota daerah administratif Halmahera tengah dengan ibu kota Soasio. Tahun 1990, status daerah administratif berubah menjadi Kabupaten Halmahera Tengah. Pada tahun 2003, Tidore menjadi kota dengan nomenklaturnya Kota Tidore Kepulauan, dengan penjabat wali kota pertama adalah Drs. M. Nur Djauhari dan penjabat wali kota kedua adalah Drs. Mahmud Adrias.</P>
+</div>
+
+<div id="KOTA TERNATE" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+ <h2>KOTA TERNATE</h2>
+ <img src="css/ternate.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kota Ternate adalah sebuah kota yang berada di bawah kaki gunung api Gamalama di Pulau Ternate, provinsi Maluku Utara, Indonesia. Kota Ternate pernah menjadi ibu kota sementara provinsi Maluku Utara secara de facto dari tahun 1999 hingga 2010. Pada tanggal 4 Agustus 2010, Sofifi diresmikan menjadi ibu kota Maluku Utara pengganti Ternate, sebuah kelurahan di Kota Tidore Kepulauan yang berada di pulau Halmahera.</p>
+ <h2>SEJARAH</h2>
+  <p>Sejarah kota ini bermula dengan adanya Kesultanan Ternate yang berdiri sekitar abad ke-13 di Pulau Ternate, yang menjadikan kawasan kota ini sebagai pusat pemerintahannya. Kornelis Matelief de Jonge pada tahun 1607 membangun sebuah benteng pada kawasan kota ini, yang dinamakan Fort Oranje dan sebelumnya bernama Malayu.</p>
+</div>
+
+<div id="KABUPATEN PULAU MOROTAI" class="w3-container kota w3-animate-top" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN PULAU MOROTAI</h2>
+ <img src="css/morotai.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Pulau Morotai adalah nama sebuah pulau sekaligus kabupaten definitif baru yang terletak di provinsi Maluku Utara, Indonesia. Pulau Morotai merupakan salah satu pulau paling utara di Indonesia. Kabupaten Pulau Morotai diresmikan oleh Menteri Dalam Negeri Indonesia, Mardiyanto, pada 29 Oktober 2008, sebagai hasil pemekaran dari Kabupaten Halmahera Utara. Luas wilayah Pulau Morotai 2.337,15 km², dengan jumlah penduduk 74.565 jiwa (2020) dan kepadatan penduduk 31,90 jiwa/km².</p>
+<h2>SEJARAH</h2>
+<p>Selama abad ke-15 dan 16, Morotai berada di bawah pengaruh Kesultanan Ternate yang berkuasa. Merupakan inti sebuah kawasan besar bernama Moro yang termasuk pulau dan pesisir Halmahera yang dekat dengan Morotai ke selatan.
+
+Pada pertengahan abad ke-16, pulau ini menjadi tempat misi Yesuit Portugis. Kesultanan Muslim Ternate dan Halmahera merasa tersinggung akan pelopor aktivitas penyebaran agama itu dan berusaha mencegah misi itu dari pulau ini pada 1571, sebagai akibatnya Portugis hengkang dari kawasan itu. Pada abad ke-17, Ternate menggunakan kekuasaannya atas Morotai dengan memerintahkan berulang-ulang pada penduduknya agar pindah dari pulau itu. Pada awal abad itu para penduduknya pindah ke Dodinga, sebuah kota kecil di titik strategis pesisir barat Halmahera. Lalu pada 1627 dan 1628, Sultan Hamzah dari Ternate memerintahkan pindahnya penduduk Kristen ke Malayu, Ternate, agar lebih mudah dikendalikan.
+
+Pulau ini menjadi lapangan terbang bagi Jepang selama Perang Dunia II. Pulau ini diambil alih oleh angkatan Amerika Serikat pada September 1944 dan digunakan sebagai landasan serangan Sekutu ke Filipina pada awal 1945 serta ke Borneo Timur pada Mei dan Juni tahun itu. Merupakan basis untuk serangan ke Jawa pada Oktober 1945 yang ditunda setelah penyerahan diri Jepang pada bulan Agustus.</p>
+</div>
+
+<div id="KABUPATEN PULAU TALIABU" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN PULAU TALIABU</h2>
+ <img src="css/taliabu.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Pulau Taliabu adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Pulau Taliabu merupakan hasil pemekaran dari Kabupaten Kepulauan Sula yang disahkan dalam sidang paripurna DPR RI pada 14 Desember 2012 di gedung DPR RI tentang Rancangan UU Daerah Otonomi Baru (DOB).[5] [6] Kabupaten ini berpenduduk 59.330 jiwa pada tahun 2019.</p>
+<h2>SEJARAH</h2>
+<p>Kabupaten Pulau Taliabu adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Pulau Taliabu merupakan hasil pemekaran dari Kabupaten Kepulauan Sula yang disahkan dalam sidang paripurna DPR RI pada 14 Desember 2012 di gedung DPR RI tentang Rancangan UU Daerah Otonomi Baru (DOB).[5] [6] Kabupaten ini berpenduduk 59.330 jiwa pada tahun 2019.</p>
+</div>
+
+<div id="KABUPATEN KEPULAUAN SULA" class="w3-container kota w3-animate-top" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN KEPULAUAN SULA</h2>
+ <img src="css/sula.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Kepulauan Sula adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Kabupaten Kepulauan Sula dengan ibu kota Sanana terletak paling Selatan di wilayah Provinsi Maluku Utara. Jarak dari Kota Ternate, ibu kota provinsi sekitar 284 km dapat ditempuh melalui penerbangan udara dan pelayaran laut.
+
+Kabupaten Kepulauan Sula pada awalnya menjadi bagian dari Kabupaten Halmahera Barat, bersama-sama dengan Kabupaten Halmahera Utara dan Kabupaten Halmahera Selatan. Beberapa etnis yang ada di kabupaten ini yakni Yafai Fatce, Yafai Fagudu, Yafai Faahu dan Yafai Mangon.[6] Pada akhir tahun 2023, jumlah penduduk Kepulauan Sula sebanyak 105.095 jiwa.
+</p>
+<h2>SEJARAH</h2>
+<p>Setelah kemerdekaan pemerintahan Indonesia kemudian merubah distrik-distrik tersebut menjadi kecamatan yaitu Kecamatan Sanana, Kecamatan Taliabu timur, dan Kecamatan Taliabu Barat. Yafai Fogi sandiri masuk kedalam wilayah Kecamatan Sanana setelah penduduknya pindah dari daerah pegunungan kedaerah pesisir pada tahun 1946. Proses yang panjang dan melelahkan menyertai pembentukan Kabupaten Kepulauan Sula berawal dari diutusnya dua orang putra sula yakni; H. Adam Yoisangadji (Alm) dan Yusuf Mayau (Alm) guna menghadap dan meminta presiden sukarno untuk dapat berkunjung ke kepulauan sula, setelah dalam kunjungan sebelumnya di tahun 1954 ke kabupaten Maluku utara hanya pulau Sula yang tidak dikujungi oleh Presiden Sukarno namun Presiden Sukarno berhalangan dan mengutu Wakil Presiden Drs. Muhammad Hatta ke Kepulauan Sula.
+Saat Indonesia dalam kondisi tidak menentu tahun 1957 akibat pemberontakan di sana-sini guna memerdekakan diri dari republic. Masyarakat Maluku Utara tetap menuntut adanya pembentukan Maluku Utara menjadi daerah tingkat I beserta daerah-daerah tingkat I lainnya di Maluku Utara termasuk Kepulauan Sula perjuangan yang juga membutuhkan pengorbanan ini dimana tokoh politik dan aktivis pemekaran harus rela ditangkap dan diasingkan dipulau Nusakembangan. Peristiwa ini juga menyebabkan putusnya hubungan antara Sanana dengan Makasar yang merupakan pusat pergerkan dan perjuangan dari masyarakat kepulauan sula.
+Menyikapi kondisi tersebut dibutuhkan sebuah wadah untuk tetap dapat terus memperjuangkan aspirasi masyarakat kabupaten kepulauan sula. Pada tanggal 29 september 1959 dikota Makassar lahirlah sebuah organisasi yakni Himpunan Pelajar Mahasiswa Sula (HPMS) sebagai tindak lanjut dari pertemuan yang di lakukan sebelumnya tanggal 15 september 1959 ikatan keluarga sula bersama beberapa pelajar dan mahasiswa sebagai elemen dalam pergerakan. Bukanlah sesuatu tanpa alasan. Pelajar dan mahasiswa dimassa itu dipandang masih mampu menjaga kemurnian gerakan dalam menyampaikan aspirasi masyarakat Sula.
+Keseriusan perjuangan masyarakat Sula dapat terliat jelas ketika pembangunan 15 rumah yang diperuntukan untuk pegawai. Yang kini dikenal dengan komplek perumahan daerah di Sanana. Pembangunan ini secara politis guna mendukung kebijakan pemekaran Maluku Utara dimana didalamnya Kepulauan Sula termasuk rancangan pemekaran dengan tingkat II Maluku Utara yang tertuang dalam SK Gubernur Maluku tanggal 6 Desember 1966. No; Des 15/3/66
+Meskipun selalu kandas momentum-momentum perjuangan masyarakat Sula terus berlanjut diantaranya: pertama saat diadakan resolusi rakyat Kepulauan Sula tanggal 28 Desember 1971 yang memberi mandat kepada HPMS untuk menindaklanjuti resulusi tuntutan pembentukan Kabupaten Kepulauan Sula. kedua saat Bupati Maluku Utara Abbdullah Assagaf bersama DPRD Maluku Utara mengajukan proposal ke Gubernur Maluku mengenai rencana pemekaran kabupaten termasuk di antaranya Kabupaten Kepulauan Sula
+Melalui rekomendasi yang dikeluarkan DPRD Kabupaten Maluku Utara dan DPRD provinsi Maluku Utara dan pembahasan yang di lakukan hngga di tingkat komisi II DPR RI. Maka akhirnya melalui sidang paripurna DPR RI tanggal 27 Januari 2003, DPR RI mengesahkan undang-undang pembentukan 25 kabupaten kota di 10 provinsi termasuk termasuk didalamnya Kabupaten Kepulauan Sula.</p>
+</div>
+
+<div id="KABUPATEN HALMAHERA UTARA" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN HALMAHERA UTARA</h2>
+ <img src="css/halut.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Halmahera Utara adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Ibu kota kabupaten Halmahera Utara berada di kecamatan Tobelo. Luas kabupaten ini adalah 3.891,62 km² dengan jumlah penduduk pada akhir tahun 2023 sebanyak 203.213 jiwa.[1][3]
+
+Kabupaten ini terdapat gunung berapi aktif yaitu Gunung Dukono.
+</p>
+<h2>SEJARAH</h2>
+<p>Kabupaten Halmahera Utara terbentuk pada 31 Mei 2003 berdasarkan Undang-Undang RI Nomor 1 Tahun 2003.</p>
+</div>
+
+<div id="KABUPATEN HALMAHERA BARAT" class="w3-container kota w3-animate-top" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN HALMAHERA BARAT</h2>
+ <img src="css/halbar.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Halmahera Barat adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Ibukota kabupaten ini terletak di kecamatan Jailolo. Kabupaten ini memiliki luas wilayah 1.704,00 km² dan pada akhir tahun 2023, jumlah penduduk Halmahera Barat sebanyak 137.543 jiwa.
+</p>
+<h2>SEJARAH</h2>
+<p>Kabupaten Halmahera Barat merupakan salah satu Kabupaten yang dimekarkan dari Kabupaten Maluku Utara yang semula merupakan Kabupaten Induk berdasarkan Undang-undang Nomor 1 Tahun 2003 tentang pembentukan Kabupaten Halmahera Barat, Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Halmahera Timur, Kabupaten Kepulauan Sula dan Kota Tidore Kepulauan pada tanggal 25 Februari 2003</p>
+</div>
+
+<div id="KABUPATEN HALMAHERA TIMUR" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN HALMAHERA TIMUR</h2>
+ <img src="css/haltim.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Halmahera Timur adalah salah satu kabupaten yang berada di provinsi Maluku Utara, Indonesia. Pusat pemerintahan atau ibukota kabupaten ini berada di kecamatan Kota Maba. Penduduk kabupaten Halmahera Timur pada akhir tahun 2023 berjumlah 97.895 jiwa, dengan kepadatan 14 jiwa/km2.</p>
+<h2>SEJARAH</h2>
+<p>Kabupaten Halmahera Timur berdiri sejak tahun tahun 2003 berdasarkan Undang Undang Republik Indonesia Nomor 1 tahun 2003, dimana kabupaten Halmahera Tengah dimekarkan menjadi tiga kabupaten/kota, yaitu Kabupaten Halmahera Tengah sebagai kabupaten induk kemudian Kabupaten Halmahera Timur dan Kota Tidore Kepulauan</p>
+<p>Secara geomorfologi wilayah Kabupaten Halmahera Timur terletak pada posisi antara 0°40’ – 104’Lintang Utara dan 127°50’ sampai dengan 129°30’ Bujur Timur. Sementara secara administratif, Kabupaten Halmahera Timur berbatasan langsung dengan tiga kabupaten/kota yaitu Kabupaten Halmahera Utara, Kabupaten Halmahera Tengah, dan Kota Tidore Kepulauan. Halmahera Timur. Kabupaten Halmahera Timur juga berbatasan langsung dengan Teluk Buli, Laut Halmahera dan Samudera Pasifik</p>
+</div>
+
+<div id="KABUPATEN HALMAHERA TENGAH" class="w3-container kota w3-animate-top" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN HALMAHERA TENGAH</h2>
+ <img src="css/halteng.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Halmahera Tengah adalah salah satu kabupaten yang berada di provinsi Maluku Utara, Indonesia. Ibu kota kabupaten ini terletak di kecamatan Weda, sebelumnya di Soasio. Jumlah penduduk Halmahera Tengah akhir tahun 2023 berdasarkan data Kementerian Dalam Negeri, berjumlah 96.977 jiwa, dengan kepadatan penduduk 36 jiwa/km2</p>
+ <p>Kabupaten Halmahera Tengah adalah salah satu penghasil logam nikel di Indonesia. Perusahaan-perusahaan nikel banyak beroperasi di Kecamatan Weda, salah satunya di Kawasan Industri Weda Bay yang merupakan salah satu Proyek Strategis Nasional.Selain wilayah Weda, nikel juga ditemukan di Pulau Gebe yang mengalami banyak penambangan ilegal yang menyebabkan kerusakan lingkungan<p/>
+<h2>SEJARAH</h2>
+<p>Kabupaten Halmahera Tengah terletak di Pulau Halmahera yang merupakan pulau terbesar di Maluku Utara dengan beberapa pulau/kepulauan di samping Halmahera sebagai induknya. Kabupaten Halmahera Tengah juga memiliki 37 pulau kecil dimana hanya ada dua pulau yang memiliki penduduk yaitu Pulau Gebe dan Pulau Yoi.</p>
+<p>Kabupaten Halmahera Tengah berdiri sejak tahun 1968 sesuai dengan kebijaksanaan Gubernur Provinsi Maluku No. Odes 25/1/8 tahun 1968 dengan maksud dikembangkan untuk menjadi daerah tingkat II yang otonom. Kemudian direstui dengan Surat keputusan Mendagri tanggal 15 April 1969 No Pemda 2/1/33. Dengan demikian secara de facto sejak tahun 1969, Kabupaten Halmahera Tengah telah mengatur dan mengurus rumah tangganya sendiri sejajar dengan daerah tingkat II lainnya di Provinsi Maluku. Pada tahun 1990 daerah Halmahera Tengah dinyatakan sebagai daerah Kabupaten penuh. Dengan menyesuaikan pada perkembangan waktu dan tuntutan kondisi sosial masyarakat, maka pada tahun 2003 dengan UU RI No, 1 tahun 2003 kabupaten Halmahera Tengah dimekarkan menjadi tiga kabupaten/kota, yaitu Kabupaten Halmahera Tengah sebagai kabupaten induk kemudian Kabupaten Halmahera Timur dan Kota Tidore Kepulauan.</p>
+</div>
+
+<div id="KABUPATEN HALMAHERA SELATAN" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+ <h2>KABUPATEN HALMAHERA SELATAN</h2>
+ <img src="css/halsel.jpg" width=300 height=200 alt="tidore">
+ <hr>
+ <p>Kabupaten Halmahera Selatan adalah salah satu kabupaten di provinsi Maluku Utara, Indonesia. Ibu kota kabupaten ini terletak di Kota Labuha. Kabupaten ini memiliki luas wilayah 8.779,32 km² dan berpenduduk sebanyak 251.299 jiwa (2020). Kabupaten Halmahera Selatan merupakan hasil pemekaran dari Kabupaten Maluku Utara atau saat ini menjadi Kabupaten Halmahera Barat berdasarkan Undang-undang No. 1 tahun 2003 tentang pemekaran wilayah Kabupaten Maluku Utara. Kabupaten Halmahera Selatan pada awal pembentukannya memiliki 9 kecamatan namun kini menjadi 30 kecamatan.</p>
+<h2>SEJARAH</h2>
+<p>Pembentukan sejarah Kerajaan Moloku dimulai pada tahun 1252 dengan Baab Mansur Malamo sebagai penguasa pertama. Berdasarkan Zeif Beztur Regeling Tahun 1930, Maluku Utara dibagi dalam 3 (tiga) swapraja, yaitu Kesultanan Ternate, Kesultanan Tidore dan Kesultanan Bacan.</p>
+<p>Tiap kesultanan dibagi menjadi distrik membawahi onder distrik yang dikepalai oleh Holf yang diangkat dan diberhentikan oleh Sultan yang bersangkutan. Pada tahun 1957 lahirlah Undang-undang No. 1 Tahun 1957 tentang pembagian wilayah pemerintahan menjadi Pemerintahan Swapraja yang dipimpin oleh Kepala Pemerintahan setempat atau disebut KPS. Pada masa Inpassing pemerintahan pada tahun 1960, daerah-daerah dipecah dalam bentuk distrik. Kemudian pemerintah melakukan perubahan distrik menjadi kecamatan. Pada tahun 1957 Camat Haerie menjadi camat pertama di kecamatan Bacan yang sekarang setelah lahirnya Undang-undang No. 1 tahun 2003 tentang pemekaran wilayah Kabupaten Maluku Utara, di mana Labuha sebagai ibu kota Kabupaten Halmahera Selatan, terdiri dari 9 (sembilan) kecamatan yang dipimpin oleh Bupati yang aktivitas pemerintahannya mulai berjalan pada tanggal 9 Juni 2003.</p>
+</div>
+
+
+
+<div id="PROFIL" class="w3-container kota w3-animate-zoom" style="display:none">
+<font style="color: white;">
+<img src="css/petamaluku.jpg" width=400 height=300 alt="malukuutara">
+ 
+ <p>Maluku Utara (disingkat Malut) merupakan provinsi bagian Timur Indonesia yang resmi terbentuk pada 4 Oktober 1999 yang sebelumnya menjadi kabupaten dari provinsi Maluku bersama dengan Halmahera Tengah, berdasarkan UU RI Nomor 46 Tahun 1999 dan UU RI Nomor Tahun 2003. Jumlah penduduk Maluku Utara pada tahun 2021 mencapai 1.316.973 jiwa, dengan kepadatan penduduk sebanyak 41 jiwa/km2.[4]
+
+Saat awal pendirian Provinsi Maluku Utara, ibu kota ditempatkan di Kota Ternate berlokasi di kaki Gunung Gamalama dalam kurun waktu kurang lebih 11 tahun, hingga pada 4 Agustus 2010 setelah adanya masa transisi dan persiapan pembangunan, Maluku Utara memindahkan ibukota ke Sofifi.
+</p>
+</div>
+
+<div id="SEJARAH" class="w3-container kota w3-animate-bottom" style="display:none">
+<font style="color: white;">
+<h2>SEJARAH</h2>
+<img src="css/SEJARAH.jpg" width=300 height=200 alt="sejarah">
+ <p>Sejarah Provinsi Maluku Utara tidak dapat dipisahkan dari keberadaan empat kerajaan besar Islam Timur Nusantara. Kerajaan tersebut terdiri dari Kesultanan Bacan, Kesultanan Jailolo, Kesultanan Tidore, dan Kesultanan Ternate. Pada awalnya, empat kerajaan itu menjalankan pemerintahan sendiri-sendiri. Namun, sekitar abad ke 13 Sultan Ternate ke-7 bernama Kolano Cili Aiya menginisiasi untuk mengajak penguasa tiga kerajaan lainnya bermusyawarah. Hasil musyawarah itu adalah pendirian persekutuan empat kerajaan tersebut. Persekutuan empat kerajaan itu terkenal dengan sebutan Moloku Kie Raha atau Kesultanan Empat Gunung di Maluku.</p>
+<p> Pada abad ke 15, Maluku Utara memasuki masa kolonial. Bangsa pertama yang menginjakkan kaki di Maluku Utara adalah bangsa Portugis, tepatnya di Ternate. Pada awalnya Portugis disambut dengan baik hingga menempati posisi penasehat kerajaan. Jalinan kerja sama itu tak berlangsung lama, mulai timbul konflik di kedua kubu. Puncaknya adalah terbunuhnya Sultan Khairun oleh Portugis. Anak dari Sultan Khairun yaitu Sultan Baabullah memimpin perjuangan membalaskan dendam Ayahnya. Gempuran itu mengharuskan Portugis mundur ke Ambon. Selanjutnya, pada abad ke 16 Spanyol juga pernah mencoba untuk melakukan monopoli dagang di Tidore. Namun, tak berlangsung lama, karena masalah politik yang berkaitan dengan Perjanjian Toresillas, menyebabkan Spanyol harus meninggalkan Maluku. Di masa kedudukan Jepang. Maluku Utara atau tepatnya di Pulau Morotai pernah menjadi medan perang antara Jepang dan Sekutu.</p>
+
+</div>
+
+<div id="DEMOGRAFI" class="w3-container kota w3-animate-top" style="display:none">
+<font style="color: white;">
+ <h2>DEMOGRAFI</h2>
+ <img src="css/demografi.jpg" width=300 height=200 alt="demografi">
+ <p>Penduduk Maluku Utara berasal dari beragam suku seperti Suku Madole,Suku Pagu, Suku Ternate, Suku Makian Barat, Suku Kao, Suku Tidore, Suku Buli, Suku Patani, Suku Maba, Suku Sawai, dan Suku Weda. Ada juga Suku Gane, Suku Makian Timur, Suku Kayoa, Suku Bacan, Suku Sula, Suku Ange, Suku Siboyo, Suku Kadai, Suku Galela, Suku Tobelo, Suku Loloda, Suku Tobaru, Suku Sahu, Suku Arab, dan Eropa.</p>
+ <p> Mayoritas penduduknya merupakan pemeluk agama Islam dengan persentase mencapai lebih dari 74 persen. Selebihnya adalah penganut agama lain seperti Kristen Protestan, Kristen Katolik, Hindu, Buddha, dan Konghuchu. Perekonomian Maluku Utara bergerak di sektor petanian, perikanan, dan hasil laut. Komoditas utamanya antara lain kopra, buah pala, cengkeh, hasil perikanan, emas, dan nikel.
+Penduduk Maluku Utara berasal dari beragam suku seperti Suku Madole,Suku Pagu, Suku Ternate, Suku Makian Barat, Suku Kao, Suku Tidore, Suku Buli, Suku Patani, Suku Maba, Suku Sawai, dan Suku Weda. Ada juga Suku Gane, Suku Makian Timur, Suku Kayoa, Suku Bacan, Suku Sula, Suku Ange, Suku Siboyo, Suku Kadai, Suku Galela, Suku Tobelo, Suku Loloda, Suku Tobaru, Suku Sahu, Suku Arab, dan Eropa. Mayoritas penduduknya merupakan pemeluk agama Islam dengan persentase mencapai lebih dari 74 persen. Selebihnya adalah penganut agama lain seperti Kristen Protestan, Kristen Katolik, Hindu, Buddha, dan Konghuchu. Perekonomian Maluku Utara bergerak di sektor petanian, perikanan, dan hasil laut. Komoditas utamanya antara lain kopra, buah pala, cengkeh, hasil perikanan, emas, dan nikel.
+</p>
+</div>
+
+<div id="TIM SEPAK BOLA" class="w3-container kota w3-animate-zoom" style="display:none">
+<font style="color: white;">
+<h2>MALUT UNITED FC</h2>
+<img src="css/united.jpg" width=150 height=250 alt="united">
+ <p>Berdiri sebagai Putra Jombang dan berubah nama menjadi Putra Delta Sidoarjo untuk mengarungi Liga 3 Jawa Timur musim 2021. Pada tahun 2022, Putra Delta Sidoarjo FC yang baru didirikan berhasil promosi ke kasta kedua Liga Indonesia yakni Liga 2.
+
+Putra Delta Sidoarjo dijual oleh pemiliknya menyusul ketidakjelasan Liga 2 2022–2023 dan berganti nama menjadi Maluku Utara United pada 30 Januari 2023. Malut United bersiap menjalani debutnya di ajang Liga 2 2023–2024 yang dimulai pada November 2023.
+ </p>
+</div>
+
+<div id="CREATOR" class="w3-container kota w3-animate-zoom" style="display:none">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: times new roman;
+}
+
+.title {
+  color: black;
+  font-size: 20px;
+}
+
+
+</style>
+</head>
+<body>
+<h2 style="text-align:center">PROFILE</h2>
+
+<div class="card">
+  <img src="css/BOY.jpg" alt="John" style="width:100%">
+  <h1>ANNANGGA TRIWANALINGGA HERIAWAN</h1>
+  <p class="title">10123418</p>
+  <p>IF-10</p>
+  <p>Universitas Komputer Indonesia</p>
+</div>
+</div>
+
+</html>
+
